@@ -154,7 +154,7 @@ const ExcelMagic: React.FC = () => {
         </div>
 
         {/* Previous Files */}
-        <div className="bg-white rounded-xl p-6 border border-green-200 shadow-sm">
+        <div className="bg-white rounded-xl p-6 border border-green-200 shadow-xs">
           <h2 className="text-2xl font-semibold text-black mb-6">
             Previous Files
           </h2>
