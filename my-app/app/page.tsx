@@ -2,15 +2,17 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from 'react';
 
 function MyButton() {
+  const [count, setCount] = useState(0);
   function handleClick() {
-    alert("Egret");
+    setCount(count + 1);
   }
   
   return (
     <button onClick={handleClick}>
-      I'm a button
+      I'm a button, I've been clicked {count} times
     </button>
   );
 }
